@@ -1,0 +1,805 @@
+{
+  "bookName": "Habakkuk",
+  "version": "ESV",
+  "chapters": [
+    {
+      "chapter": "1",
+      "verses": [
+        {
+          "verse": "1",
+          "content": "The oracle that Habakkuk the prophet saw."
+        },
+        {
+          "verse": "2",
+          "content": "O Lord, how long shall I cry for help,"
+        },
+        {
+          "verse": "2",
+          "content": "and you will not hear?"
+        },
+        {
+          "verse": "2",
+          "content": "Or cry to you \"Violence!\""
+        },
+        {
+          "verse": "2",
+          "content": "and you will not save?"
+        },
+        {
+          "verse": "3",
+          "content": "Why do you make me see iniquity,"
+        },
+        {
+          "verse": "3",
+          "content": "and why do you idly look at wrong?"
+        },
+        {
+          "verse": "3",
+          "content": "Destruction and violence are before me;"
+        },
+        {
+          "verse": "3",
+          "content": "strife and contention arise."
+        },
+        {
+          "verse": "4",
+          "content": "So the law is paralyzed,"
+        },
+        {
+          "verse": "4",
+          "content": "and justice never goes forth."
+        },
+        {
+          "verse": "4",
+          "content": "For the wicked surround the righteous;"
+        },
+        {
+          "verse": "4",
+          "content": "so justice goes forth perverted."
+        },
+        {
+          "verse": "5",
+          "content": "\"Look among the nations, and see;"
+        },
+        {
+          "verse": "5",
+          "content": "wonder and be astounded."
+        },
+        {
+          "verse": "5",
+          "content": "For I am doing a work in your days"
+        },
+        {
+          "verse": "5",
+          "content": "that you would not believe if told."
+        },
+        {
+          "verse": "6",
+          "content": "For behold, I am raising up the Chaldeans,"
+        },
+        {
+          "verse": "6",
+          "content": "that bitter and hasty nation,"
+        },
+        {
+          "verse": "6",
+          "content": "who march through the breadth of the earth,"
+        },
+        {
+          "verse": "6",
+          "content": "to seize dwellings not their own."
+        },
+        {
+          "verse": "7",
+          "content": "They are dreaded and fearsome;"
+        },
+        {
+          "verse": "7",
+          "content": "their justice and dignity go forth from themselves."
+        },
+        {
+          "verse": "8",
+          "content": "Their horses are swifter than leopards,"
+        },
+        {
+          "verse": "8",
+          "content": "more fierce than the evening wolves;"
+        },
+        {
+          "verse": "8",
+          "content": "their horsemen press proudly on."
+        },
+        {
+          "verse": "8",
+          "content": "Their horsemen come from afar;"
+        },
+        {
+          "verse": "8",
+          "content": "they fly like an eagle swift to devour."
+        },
+        {
+          "verse": "9",
+          "content": "They all come for violence,"
+        },
+        {
+          "verse": "9",
+          "content": "all their faces forward."
+        },
+        {
+          "verse": "9",
+          "content": "They gather captives like sand."
+        },
+        {
+          "verse": "10",
+          "content": "At kings they scoff,"
+        },
+        {
+          "verse": "10",
+          "content": "and at rulers they laugh."
+        },
+        {
+          "verse": "10",
+          "content": "They laugh at every fortress,"
+        },
+        {
+          "verse": "10",
+          "content": "for they pile up earth and take it."
+        },
+        {
+          "verse": "11",
+          "content": "Then they sweep by like the wind and go on,"
+        },
+        {
+          "verse": "11",
+          "content": "guilty men, whose own might is their god!\""
+        },
+        {
+          "verse": "12",
+          "content": "Are you not from everlasting,"
+        },
+        {
+          "verse": "12",
+          "content": "O Lord my God, my Holy One?"
+        },
+        {
+          "verse": "12",
+          "content": "We shall not die."
+        },
+        {
+          "verse": "12",
+          "content": "O Lord, you have ordained them as a judgment,"
+        },
+        {
+          "verse": "12",
+          "content": "and you, O Rock, have established them for reproof."
+        },
+        {
+          "verse": "13",
+          "content": "You who are of purer eyes than to see evil"
+        },
+        {
+          "verse": "13",
+          "content": "and cannot look at wrong,"
+        },
+        {
+          "verse": "13",
+          "content": "why do you idly look at traitors"
+        },
+        {
+          "verse": "13",
+          "content": "and remain silent when the wicked swallows up"
+        },
+        {
+          "verse": "13",
+          "content": "the man more righteous than he?"
+        },
+        {
+          "verse": "14",
+          "content": "You make mankind like the fish of the sea,"
+        },
+        {
+          "verse": "14",
+          "content": "like crawling things that have no ruler."
+        },
+        {
+          "verse": "15",
+          "content": "He brings all of them up with a hook;"
+        },
+        {
+          "verse": "15",
+          "content": "he drags them out with his net;"
+        },
+        {
+          "verse": "15",
+          "content": "he gathers them in his dragnet;"
+        },
+        {
+          "verse": "15",
+          "content": "so he rejoices and is glad."
+        },
+        {
+          "verse": "16",
+          "content": "Therefore he sacrifices to his net"
+        },
+        {
+          "verse": "16",
+          "content": "and makes offerings to his dragnet;"
+        },
+        {
+          "verse": "16",
+          "content": "for by them he lives in luxury,"
+        },
+        {
+          "verse": "16",
+          "content": "and his food is rich."
+        },
+        {
+          "verse": "17",
+          "content": "Is he then to keep on emptying his net"
+        },
+        {
+          "verse": "17",
+          "content": "and mercilessly killing nations forever?"
+        }
+      ]
+    },
+    {
+      "chapter": "2",
+      "verses": [
+        {
+          "verse": "1",
+          "content": "I will take my stand at my watchpost"
+        },
+        {
+          "verse": "1",
+          "content": "and station myself on the tower,"
+        },
+        {
+          "verse": "1",
+          "content": "and look out to see what he will say to me,"
+        },
+        {
+          "verse": "1",
+          "content": "and what I will answer concerning my complaint."
+        },
+        {
+          "verse": "2",
+          "content": "And the Lord answered me:"
+        },
+        {
+          "verse": "2",
+          "content": "\"Write the vision;"
+        },
+        {
+          "verse": "2",
+          "content": "make it plain on tablets,"
+        },
+        {
+          "verse": "2",
+          "content": "so he may run who reads it."
+        },
+        {
+          "verse": "3",
+          "content": "For still the vision awaits its appointed time;"
+        },
+        {
+          "verse": "3",
+          "content": "it hastens to the end\u2014it will not lie."
+        },
+        {
+          "verse": "3",
+          "content": "If it seems slow, wait for it;"
+        },
+        {
+          "verse": "3",
+          "content": "it will surely come; it will not delay."
+        },
+        {
+          "verse": "4",
+          "content": "\"Behold, his soul is puffed up; it is not upright within him,"
+        },
+        {
+          "verse": "4",
+          "content": "but the righteous shall live by his faith."
+        },
+        {
+          "verse": "5",
+          "content": "\"Moreover, wine is a traitor,"
+        },
+        {
+          "verse": "5",
+          "content": "an arrogant man who is never at rest."
+        },
+        {
+          "verse": "5",
+          "content": "His greed is as wide as Sheol;"
+        },
+        {
+          "verse": "5",
+          "content": "like death he has never enough."
+        },
+        {
+          "verse": "5",
+          "content": "He gathers for himself all nations"
+        },
+        {
+          "verse": "5",
+          "content": "and collects as his own all peoples.\""
+        },
+        {
+          "verse": "6",
+          "content": "Shall not all these take up their taunt against him, with scoffing and riddles for him, and say,"
+        },
+        {
+          "verse": "6",
+          "content": "\"Woe to him who heaps up what is not his own\u2014"
+        },
+        {
+          "verse": "6",
+          "content": "for how long?\u2014"
+        },
+        {
+          "verse": "6",
+          "content": "and loads himself with pledges!\""
+        },
+        {
+          "verse": "7",
+          "content": "Will not your debtors suddenly arise,"
+        },
+        {
+          "verse": "7",
+          "content": "and those awake who will make you tremble?"
+        },
+        {
+          "verse": "7",
+          "content": "Then you will be spoil for them."
+        },
+        {
+          "verse": "8",
+          "content": "Because you have plundered many nations,"
+        },
+        {
+          "verse": "8",
+          "content": "all the remnant of the peoples shall plunder you,"
+        },
+        {
+          "verse": "8",
+          "content": "for the blood of man and violence to the earth,"
+        },
+        {
+          "verse": "8",
+          "content": "to cities and all who dwell in them."
+        },
+        {
+          "verse": "9",
+          "content": "\"Woe to him who gets evil gain for his house,"
+        },
+        {
+          "verse": "9",
+          "content": "to set his nest on high,"
+        },
+        {
+          "verse": "9",
+          "content": "to be safe from the reach of harm!"
+        },
+        {
+          "verse": "10",
+          "content": "You have devised shame for your house"
+        },
+        {
+          "verse": "10",
+          "content": "by cutting off many peoples;"
+        },
+        {
+          "verse": "10",
+          "content": "you have forfeited your life."
+        },
+        {
+          "verse": "11",
+          "content": "For the stone will cry out from the wall,"
+        },
+        {
+          "verse": "11",
+          "content": "and the beam from the woodwork respond."
+        },
+        {
+          "verse": "12",
+          "content": "\"Woe to him who builds a town with blood"
+        },
+        {
+          "verse": "12",
+          "content": "and founds a city on iniquity!"
+        },
+        {
+          "verse": "13",
+          "content": "Behold, is it not from the Lord of hosts"
+        },
+        {
+          "verse": "13",
+          "content": "that peoples labor merely for fire,"
+        },
+        {
+          "verse": "13",
+          "content": "and nations weary themselves for nothing?"
+        },
+        {
+          "verse": "14",
+          "content": "For the earth will be filled"
+        },
+        {
+          "verse": "14",
+          "content": "with the knowledge of the glory of the Lord"
+        },
+        {
+          "verse": "14",
+          "content": "as the waters cover the sea."
+        },
+        {
+          "verse": "15",
+          "content": "\"Woe to him who makes his neighbors drink\u2014"
+        },
+        {
+          "verse": "15",
+          "content": "you pour out your wrath and make them drunk,"
+        },
+        {
+          "verse": "15",
+          "content": "in order to gaze at their nakedness!"
+        },
+        {
+          "verse": "16",
+          "content": "You will have your fill of shame instead of glory."
+        },
+        {
+          "verse": "16",
+          "content": "Drink, yourself, and show your uncircumcision!"
+        },
+        {
+          "verse": "16",
+          "content": "The cup in the Lord's right hand"
+        },
+        {
+          "verse": "16",
+          "content": "will come around to you,"
+        },
+        {
+          "verse": "16",
+          "content": "and utter shame will come upon your glory!"
+        },
+        {
+          "verse": "17",
+          "content": "The violence done to Lebanon will overwhelm you,"
+        },
+        {
+          "verse": "17",
+          "content": "as will the destruction of the beasts that terrified them,"
+        },
+        {
+          "verse": "17",
+          "content": "for the blood of man and violence to the earth,"
+        },
+        {
+          "verse": "17",
+          "content": "to cities and all who dwell in them."
+        },
+        {
+          "verse": "18",
+          "content": "\"What profit is an idol"
+        },
+        {
+          "verse": "18",
+          "content": "when its maker has shaped it,"
+        },
+        {
+          "verse": "18",
+          "content": "a metal image, a teacher of lies?"
+        },
+        {
+          "verse": "18",
+          "content": "For its maker trusts in his own creation"
+        },
+        {
+          "verse": "18",
+          "content": "when he makes speechless idols!"
+        },
+        {
+          "verse": "19",
+          "content": "Woe to him who says to a wooden thing, Awake;"
+        },
+        {
+          "verse": "19",
+          "content": "to a silent stone, Arise!"
+        },
+        {
+          "verse": "19",
+          "content": "Can this teach?"
+        },
+        {
+          "verse": "19",
+          "content": "Behold, it is overlaid with gold and silver,"
+        },
+        {
+          "verse": "19",
+          "content": "and there is no breath at all in it."
+        },
+        {
+          "verse": "20",
+          "content": "But the Lord is in his holy temple;"
+        },
+        {
+          "verse": "20",
+          "content": "let all the earth keep silence before him.\""
+        }
+      ]
+    },
+    {
+      "chapter": "3",
+      "verses": [
+        {
+          "verse": "1",
+          "content": "A prayer of Habakkuk the prophet, according to Shigionoth."
+        },
+        {
+          "verse": "2",
+          "content": "O Lord, I have heard the report of you,"
+        },
+        {
+          "verse": "2",
+          "content": "and your work, O Lord, do I fear."
+        },
+        {
+          "verse": "2",
+          "content": "In the midst of the years revive it;"
+        },
+        {
+          "verse": "2",
+          "content": "in the midst of the years make it known;"
+        },
+        {
+          "verse": "2",
+          "content": "in wrath remember mercy."
+        },
+        {
+          "verse": "3",
+          "content": "God came from Teman,"
+        },
+        {
+          "verse": "3",
+          "content": "and the Holy One from Mount Paran. Selah"
+        },
+        {
+          "verse": "3",
+          "content": "His splendor covered the heavens,"
+        },
+        {
+          "verse": "3",
+          "content": "and the earth was full of his praise."
+        },
+        {
+          "verse": "4",
+          "content": "His brightness was like the light;"
+        },
+        {
+          "verse": "4",
+          "content": "rays flashed from his hand;"
+        },
+        {
+          "verse": "4",
+          "content": "and there he veiled his power."
+        },
+        {
+          "verse": "5",
+          "content": "Before him went pestilence,"
+        },
+        {
+          "verse": "5",
+          "content": "and plague followed at his heels."
+        },
+        {
+          "verse": "6",
+          "content": "He stood and measured the earth;"
+        },
+        {
+          "verse": "6",
+          "content": "he looked and shook the nations;"
+        },
+        {
+          "verse": "6",
+          "content": "then the eternal mountains were scattered;"
+        },
+        {
+          "verse": "6",
+          "content": "the everlasting hills sank low."
+        },
+        {
+          "verse": "6",
+          "content": "His were the everlasting ways."
+        },
+        {
+          "verse": "7",
+          "content": "I saw the tents of Cushan in affliction;"
+        },
+        {
+          "verse": "7",
+          "content": "the curtains of the land of Midian did tremble."
+        },
+        {
+          "verse": "8",
+          "content": "Was your wrath against the rivers, O Lord?"
+        },
+        {
+          "verse": "8",
+          "content": "Was your anger against the rivers,"
+        },
+        {
+          "verse": "8",
+          "content": "or your indignation against the sea,"
+        },
+        {
+          "verse": "8",
+          "content": "when you rode on your horses,"
+        },
+        {
+          "verse": "8",
+          "content": "on your chariot of salvation?"
+        },
+        {
+          "verse": "9",
+          "content": "You stripped the sheath from your bow,"
+        },
+        {
+          "verse": "9",
+          "content": "calling for many arrows. Selah"
+        },
+        {
+          "verse": "9",
+          "content": "You split the earth with rivers."
+        },
+        {
+          "verse": "10",
+          "content": "The mountains saw you and writhed;"
+        },
+        {
+          "verse": "10",
+          "content": "the raging waters swept on;"
+        },
+        {
+          "verse": "10",
+          "content": "the deep gave forth its voice;"
+        },
+        {
+          "verse": "10",
+          "content": "it lifted its hands on high."
+        },
+        {
+          "verse": "11",
+          "content": "The sun and moon stood still in their place"
+        },
+        {
+          "verse": "11",
+          "content": "at the light of your arrows as they sped,"
+        },
+        {
+          "verse": "11",
+          "content": "at the flash of your glittering spear."
+        },
+        {
+          "verse": "12",
+          "content": "You marched through the earth in fury;"
+        },
+        {
+          "verse": "12",
+          "content": "you threshed the nations in anger."
+        },
+        {
+          "verse": "13",
+          "content": "You went out for the salvation of your people,"
+        },
+        {
+          "verse": "13",
+          "content": "for the salvation of your anointed."
+        },
+        {
+          "verse": "13",
+          "content": "You crushed the head of the house of the wicked,"
+        },
+        {
+          "verse": "13",
+          "content": "laying him bare from thigh to neck. Selah"
+        },
+        {
+          "verse": "14",
+          "content": "You pierced with his own arrows the heads of his warriors,"
+        },
+        {
+          "verse": "14",
+          "content": "who came like a whirlwind to scatter me,"
+        },
+        {
+          "verse": "14",
+          "content": "rejoicing as if to devour the poor in secret."
+        },
+        {
+          "verse": "15",
+          "content": "You trampled the sea with your horses,"
+        },
+        {
+          "verse": "15",
+          "content": "the surging of mighty waters."
+        },
+        {
+          "verse": "16",
+          "content": "I hear, and my body trembles;"
+        },
+        {
+          "verse": "16",
+          "content": "my lips quiver at the sound;"
+        },
+        {
+          "verse": "16",
+          "content": "rottenness enters into my bones;"
+        },
+        {
+          "verse": "16",
+          "content": "my legs tremble beneath me."
+        },
+        {
+          "verse": "16",
+          "content": "Yet I will quietly wait for the day of trouble"
+        },
+        {
+          "verse": "16",
+          "content": "to come upon people who invade us."
+        },
+        {
+          "verse": "17",
+          "content": "Though the fig tree should not blossom,"
+        },
+        {
+          "verse": "17",
+          "content": "nor fruit be on the vines,"
+        },
+        {
+          "verse": "17",
+          "content": "the produce of the olive fail"
+        },
+        {
+          "verse": "17",
+          "content": "and the fields yield no food,"
+        },
+        {
+          "verse": "17",
+          "content": "the flock be cut off from the fold"
+        },
+        {
+          "verse": "17",
+          "content": "and there be no herd in the stalls,"
+        },
+        {
+          "verse": "18",
+          "content": "yet I will rejoice in the Lord;"
+        },
+        {
+          "verse": "18",
+          "content": "I will take joy in the God of my salvation."
+        },
+        {
+          "verse": "19",
+          "content": "God, the Lord, is my strength;"
+        },
+        {
+          "verse": "19",
+          "content": "he makes my feet like the deer's;"
+        },
+        {
+          "verse": "19",
+          "content": "he makes me tread on my high places."
+        },
+        {
+          "verse": "19",
+          "content": "To the choirmaster: with stringed instruments."
+        }
+      ]
+    }
+  ]
+}

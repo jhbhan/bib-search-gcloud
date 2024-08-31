@@ -1,0 +1,13 @@
+runtime: python310
+
+instance_class: F2
+
+# Handlers for static files and other routes
+handlers:
+  # Serve static files from the static directory
+  - url: /static
+    static_dir: static
+
+  # Default handler for all other URLs
+  - url: /.*
+    script: auto
