@@ -39,7 +39,7 @@ def root():
 def search_keywords():
     keyword = request.args.get('keyword', '')
     bookId = request.args.get('bookId', '')
-    testamentId = request.args.get('testamentId', '')
+    testment = request.args.get('testament', '')
 
     if not keyword:
         return jsonify("No keyword provided")
@@ -51,9 +51,9 @@ def search_keywords():
         basequery += ' AND book = ?'
         params.append(bookId)
 
-    if testamentId == '1':
+    if testment == 'OT':
         basequery += ' AND book between 1 AND 39'
-    elif testamentId == '2':
+    elif testment == 'NT':
         basequery += ' AND book between 40 AND 66'
 
     db = get_db()
