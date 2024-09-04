@@ -3,6 +3,8 @@ import os
 import sqlite3
 import time
 
+from bible import get_book_id_by_name
+
 NT_FILE_PATH = './EN/NT'
 OT_FILE_PATH = './EN/OT'
 
@@ -16,7 +18,7 @@ def insert_data(file_path):
         for chapter in data['chapters']:
             for verse in chapter['verses']:
                 cursor.execute('''INSERT INTO verses (book, chapter, verse, content)
-                                  VALUES (?, ?, ?, ?)''', (data['bookName'], int(chapter['chapter']), int(verse['verse']), verse['content']))
+                                  VALUES (?, ?, ?, ?)''', (get_book_id_by_name(data['bookName']), int(chapter['chapter']), int(verse['verse']), verse['content']))
 
 
 def create_bible_db():

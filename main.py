@@ -3,6 +3,8 @@ import datetime
 import sqlite3
 from flask import Flask, request, jsonify, render_template, g
 
+from bible import get_book_name_by_id
+
 app = Flask(__name__)
 
 DATABASE = 'bible.db'
@@ -33,13 +35,31 @@ def root():
     return render_template("index.html", times=dummy_times)
 
 @app.route("/search", methods=['GET'])
+
 def search_keywords():
     keyword = request.args.get('keyword', '')
+    bookId = request.args.get('bookId', '')
+    testamentId = request.args.get('testamentId', '')
+
     if not keyword:
         return jsonify("No keyword provided")
+    
+    basequery = 'SELECT * FROM verses WHERE LOWER(content) LIKE ?'
+    params = ['%' + keyword.lower() + '%']
+
+    if bookId:
+        basequery += ' AND book = ?'
+        params.append(get_book_name_by_id(int(bookId)))
+
+    if testamentId == '1':
+        basequery += ' AND bookId between 1 AND 39'
+    elif testamentId == '2':
+        basequery += ' AND bookId between 40 AND 66'
+
     db = get_db()
     cursor = db.cursor()
-    cursor.execute('SELECT * FROM verses WHERE LOWER(content) LIKE ?', ('%' + keyword.lower() + '%',))
+    cursor.execute(basequery, params)
+
     results = cursor.fetchall()
     # Convert results into a list of dictionaries
     results = [{'id': row[0], 'book': row[1], 'chapter': row[2], 'verse': row[3], 'content': row[4]} for row in results]
