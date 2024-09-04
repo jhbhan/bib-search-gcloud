@@ -49,12 +49,12 @@ def search_keywords():
 
     if bookId:
         basequery += ' AND book = ?'
-        params.append(get_book_name_by_id(int(bookId)))
+        params.append(bookId)
 
     if testamentId == '1':
-        basequery += ' AND bookId between 1 AND 39'
+        basequery += ' AND book between 1 AND 39'
     elif testamentId == '2':
-        basequery += ' AND bookId between 40 AND 66'
+        basequery += ' AND book between 40 AND 66'
 
     db = get_db()
     cursor = db.cursor()
@@ -62,7 +62,7 @@ def search_keywords():
 
     results = cursor.fetchall()
     # Convert results into a list of dictionaries
-    results = [{'id': row[0], 'book': row[1], 'chapter': row[2], 'verse': row[3], 'content': row[4]} for row in results]
+    results = [{'id': row[0], 'book': get_book_name_by_id(row[1]), 'chapter': row[2], 'verse': row[3], 'content': row[4]} for row in results]
     return jsonify(results)
 
 @app.route('/api', methods=['GET'])

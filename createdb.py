@@ -1,7 +1,6 @@
 import json
 import os
 import sqlite3
-import time
 
 from bible import get_book_id_by_name
 
@@ -37,8 +36,7 @@ def create_bible_db():
 # Create a table to store Bible verses
 cursor.execute('''CREATE TABLE IF NOT EXISTS verses
              (id INTEGER PRIMARY KEY AUTOINCREMENT,
-              book TEXT,
-              bookId INTEGER,
+              book INTEGER,
               chapter INTEGER,
               verse INTEGER,
               content TEXT)''')
