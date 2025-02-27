@@ -3,7 +3,7 @@ import datetime
 import sqlite3
 from flask import Flask, request, jsonify, render_template, g
 
-from bible import get_book_name_by_id
+from bible import get_book_id_by_name, get_book_name_by_id
 
 app = Flask(__name__)
 
@@ -34,8 +34,44 @@ def root():
 
     return render_template("index.html", times=dummy_times)
 
-@app.route("/search", methods=['GET'])
+@app.route("/lookup", methods=['GET'])
+def verse_lookup():
+    try:
+        book = request.args.get('book', '')
+        chapter = request.args.get('chapter', '')
+        verse = request.args.get('verse', '')
+        endverse = request.args.get('endverse', verse)
 
+        if not book or not chapter or not verse:
+            return jsonify("Missing parameters")
+
+    
+        db = get_db()
+        cursor = db.cursor()
+
+        query = """
+            SELECT * FROM verses 
+            WHERE book = ? AND chapter = ? AND verse BETWEEN ? AND ?
+            ORDER BY verse ASC
+        """
+        cursor.execute(query, (get_book_id_by_name(book), chapter, verse, endverse))
+        rows = cursor.fetchall()
+
+        if rows:
+            combined_content = " ".join([row[4] for row in rows])  # Combine verses into one string
+            verseref = f"{verse}-{endverse}" if verse != endverse else verse
+
+            return jsonify({
+                "content": combined_content,
+                "reference": f"{book} {chapter}:{verseref}"
+            })
+
+        return jsonify({"error": "Verses not found"}), 404
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route("/search", methods=['GET'])
 def search_keywords():
     keyword = request.args.get('keyword', '')
     bookId = request.args.get('bookId', '')
@@ -67,7 +103,7 @@ def search_keywords():
 
 @app.route('/api', methods=['GET'])
 def api():
-    return jsonify("API is working")
+    return jsonify("API is working ssss")
 
 if __name__ == "__main__":
     # This is used when running locally only. When deploying to Google App
